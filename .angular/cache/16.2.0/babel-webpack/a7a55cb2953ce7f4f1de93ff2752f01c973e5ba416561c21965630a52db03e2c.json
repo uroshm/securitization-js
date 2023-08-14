@@ -1,0 +1,8 @@
+{
+    "ast": null,
+    "code": "import { __decorate } from \"tslib\";\nimport { Component } from \"@angular/core\";\nimport { Frequency } from \"src/app/enum/frequency\";\nexport let InterestRateComponent = class InterestRateComponent {\n  constructor() {\n    this.name = \"Interest Rate\";\n    this.rate = 0.0;\n    this.frequency = Frequency.Annually;\n    this.loanAmount = 0.0;\n    this.loanTerm = 0;\n    this.payment = 0.0;\n    this.totalPayment = 0.0;\n    this.totalInterest = 0.0;\n  }\n  calculate() {\n    let monthlyInterestRate = this.rate / 1200;\n    this.payment = this.loanAmount * monthlyInterestRate / (1 - Math.pow(1 / (1 + monthlyInterestRate), this.loanTerm));\n    this.totalPayment = this.payment * this.loanTerm;\n    this.totalInterest = this.totalPayment - this.loanAmount;\n  }\n};\nInterestRateComponent = __decorate([Component({\n  selector: \"app-interest-rate\",\n  templateUrl: \"./interest-rate.component.html\",\n  styleUrls: [\"./interest-rate.component.css\"]\n})], InterestRateComponent);",
+    "map": null,
+    "metadata": {},
+    "sourceType": "module",
+    "externalDependencies": []
+}
