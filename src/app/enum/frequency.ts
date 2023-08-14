@@ -1,0 +1,15 @@
+export enum Frequency {
+  Daily,
+  Monthly,
+  Quarterly,
+  SemiAnnually,
+  Annually,
+  OneTime,
+  Weekly,
+  BiWeekly,
+  BiMonthly,
+  EveryFourWeeks,
+  TwiceMonthly,
+  EveryTwoMonths,
+  EveryThreeMonths,
+}
