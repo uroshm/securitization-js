@@ -3,16 +3,14 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { LoanComponent } from './classes/loan/loan'
-import { InterestRateComponent } from './classes/interest-rate/interest-rate'
-import { FrequencyComponent } from './classes/frequency/frequency.component'
+import { CollateralSummaryComponent } from './component/collateral-summary/collateral-summary.component'
+import { CollateralDetailComponent } from './component/collateral-detail/collateral-detail.component'
 
 @NgModule({
     declarations: [
         AppComponent,
-        LoanComponent,
-        InterestRateComponent,
-        FrequencyComponent,
+        CollateralSummaryComponent,
+        CollateralDetailComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
