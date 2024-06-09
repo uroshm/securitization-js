@@ -1,8 +1,0 @@
-{
-    "ast": null,
-    "code": "import { __decorate } from \"tslib\";\nimport { Component } from \"@angular/core\";\nexport let LoanComponent = class LoanComponent {\n  constructor() {\n    this.title = \"Loan\";\n    this.interestRate = 0.0;\n    this.loanAmount = 0.0;\n    this.loanTerm = 0;\n    this.monthlyPayment = 0.0;\n    this.totalPayment = 0.0;\n    this.totalInterest = 0.0;\n  }\n  ngOnInit() {}\n};\nLoanComponent = __decorate([Component({\n  selector: \"app-loan\",\n  templateUrl: \"./loan.component.html\",\n  styleUrls: [\"./loan.component.css\"]\n})], LoanComponent);",
-    "map": null,
-    "metadata": {},
-    "sourceType": "module",
-    "externalDependencies": []
-}

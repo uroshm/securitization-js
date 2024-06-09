@@ -1,8 +1,0 @@
-{
-    "ast": null,
-    "code": "export var Frequency = /*#__PURE__*/function (Frequency) {\n  Frequency[Frequency[\"Daily\"] = 0] = \"Daily\";\n  Frequency[Frequency[\"Monthly\"] = 1] = \"Monthly\";\n  Frequency[Frequency[\"Quarterly\"] = 2] = \"Quarterly\";\n  Frequency[Frequency[\"SemiAnnually\"] = 3] = \"SemiAnnually\";\n  Frequency[Frequency[\"Annually\"] = 4] = \"Annually\";\n  Frequency[Frequency[\"OneTime\"] = 5] = \"OneTime\";\n  Frequency[Frequency[\"Weekly\"] = 6] = \"Weekly\";\n  Frequency[Frequency[\"BiWeekly\"] = 7] = \"BiWeekly\";\n  Frequency[Frequency[\"BiMonthly\"] = 8] = \"BiMonthly\";\n  Frequency[Frequency[\"EveryFourWeeks\"] = 9] = \"EveryFourWeeks\";\n  Frequency[Frequency[\"TwiceMonthly\"] = 10] = \"TwiceMonthly\";\n  Frequency[Frequency[\"EveryTwoMonths\"] = 11] = \"EveryTwoMonths\";\n  Frequency[Frequency[\"EveryThreeMonths\"] = 12] = \"EveryThreeMonths\";\n  return Frequency;\n}(Frequency || {});",
-    "map": null,
-    "metadata": {},
-    "sourceType": "module",
-    "externalDependencies": []
-}
