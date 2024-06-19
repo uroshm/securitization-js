@@ -1,21 +1,21 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ScenarioDetailComponent } from './scenario-detail.component';
+import { ScenarioDetailComponent } from "./scenario-detail.component";
 
-describe('ScenarioDetailComponent', () => {
+describe("ScenarioDetailComponent", () => {
   let component: ScenarioDetailComponent;
   let fixture: ComponentFixture<ScenarioDetailComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ScenarioDetailComponent]
+      declarations: [ScenarioDetailComponent],
     });
     fixture = TestBed.createComponent(ScenarioDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

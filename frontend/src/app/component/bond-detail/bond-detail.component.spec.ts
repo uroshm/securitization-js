@@ -1,21 +1,21 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { BondDetailComponent } from './bond-detail.component';
+import { BondDetailComponent } from "./bond-detail.component";
 
-describe('BondDetailComponent', () => {
+describe("BondDetailComponent", () => {
   let component: BondDetailComponent;
   let fixture: ComponentFixture<BondDetailComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [BondDetailComponent]
+      declarations: [BondDetailComponent],
     });
     fixture = TestBed.createComponent(BondDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

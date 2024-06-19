@@ -4,9 +4,11 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve --host 0.0.0.0 --disable-host-check",
+        "start:docker": "docker build -t securitization-js-frontend . && docker run -p 4200:4200 -it securitization-js-frontend",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
-        "test": "ng test"
+        "test": "ng test",
+        "format": "npx prettier ./src --write"
     },
     "private": true,
     "dependencies": {
@@ -16,7 +18,8 @@
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^18.0.3",
-        "@angular/platform-browser-dynamic": "^18.0.2"
+        "@angular/platform-browser-dynamic": "^18.0.2",
+        "prettier": "3.3.2"
     },
     "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.",
     "main": ".eslintrc.js",

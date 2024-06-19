@@ -6,7 +6,7 @@ COPY . /usr/src/app
 
 RUN npm install @angular/cli
 RUN npm install @angular/material
-RUN npm install @angular/router
+RUN npm install @angular/router --force
 
 CMD ["npm", "run", "start"]
 
