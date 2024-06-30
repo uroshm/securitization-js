@@ -1,3 +1,1 @@
-public class Bond {
-    
-}
+public class Bond {}
