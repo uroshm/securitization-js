@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:docker": "docker build -t securitization-js-backend . && docker run -p 5000:5000 securitization-js-backend"
+    "start:docker": "docker build -t securitization-js-backend . && docker run --name securitization-js-backend -p 5000:5000 securitization-js-backend"
   },
   "author": "",
   "license": "ISC",
